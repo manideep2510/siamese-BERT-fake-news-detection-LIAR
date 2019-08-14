@@ -109,11 +109,9 @@ As given in the dataset documentation, the columns 9-13 in the dataset correspon
 
 So the Credit score is calculated as,
 
-A = [(mostly true counts)*0.2 + (half true counts)*0.5 + (barely true counts)*0.75 + (false counts)*0.9 + (pants on fire counts)*1]
-
-B = [mostly true counts + half true counts + barely true counts + false counts) + pants on fire counts]
-
-Credit_score = A / B
+<p align="center">
+    <img src="doc_images/credit_score.png" width="1200" />
+</p>
 
 The credit score tells us about how false or fake the news published by that author or the source is on average.
 
