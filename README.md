@@ -20,12 +20,6 @@ Then install the requirements by running
 $ pip3 install -r requirements.txt
 ```
 
-To run the training code, first download the dataset into your HOME directory by running
-
-``` bash
-$ git clone https://github.com/Tariq60/LIAR-PLUS.git ~/LIAR-PLUS
-```
-
 Now to run the training code for binary classification, execute
 
 ``` bash
