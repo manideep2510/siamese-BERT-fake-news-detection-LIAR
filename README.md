@@ -1,4 +1,4 @@
-# Fake News Classification on LIAR-PLUS Dataset using Triple Branch Siamese Network with BERT as the base network
+# Triple Branch BERT Siamese Network for fake news classification on LIAR-PLUS dataset
 
 ## Files
 
