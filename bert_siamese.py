@@ -35,11 +35,11 @@ args = parser.parse_args()
 
 num_labels = args.num_labels
 
-home = str(Path.home())
+#home = str(Path.home())
 
-train_path = home + '/LIAR-PLUS/dataset/train2.tsv'
-test_path = home + '/LIAR-PLUS/dataset/test2.tsv'
-val_path = home + '/LIAR-PLUS/dataset/val2.tsv'
+train_path = '/LIAR-PLUS/dataset/train2.tsv'
+test_path = '/LIAR-PLUS/dataset/test2.tsv'
+val_path = '/LIAR-PLUS/dataset/val2.tsv'
 
 
 train_df = pd.read_csv(train_path, sep="\t", header=None)
