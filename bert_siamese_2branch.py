@@ -27,11 +27,11 @@ import pandas as pd
 from pathlib import Path
 from matplotlib import pyplot as plt
 
-home = str(Path.home())
+#home = str(Path.home())
 
-train_path = home + '/fake_news/LIAR-PLUS/dataset/train2.tsv'
-test_path = home + '/fake_news/LIAR-PLUS/dataset/test2.tsv'
-val_path = home + '/fake_news/LIAR-PLUS/dataset/val2.tsv'
+train_path = '/fake_news/LIAR-PLUS/dataset/train2.tsv'
+test_path = '/fake_news/LIAR-PLUS/dataset/test2.tsv'
+val_path = '/fake_news/LIAR-PLUS/dataset/val2.tsv'
 
 
 train_df = pd.read_csv(train_path, sep="\t", header=None)

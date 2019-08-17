@@ -67,9 +67,9 @@ from sklearn.utils import shuffle
 from tqdm import tqdm
 #nltk.download('stopwords')
 from sklearn import metrics
-train_path = '/home/ubuntu/fake_news/LIAR-PLUS/dataset/train2.tsv'
-test_path = '/home/ubuntu/fake_news/LIAR-PLUS/dataset/test2.tsv'
-val_path = '/home/ubuntu/fake_news/LIAR-PLUS/dataset/val2.tsv'
+train_path = '/LIAR-PLUS/dataset/train2.tsv'
+test_path = '/LIAR-PLUS/dataset/test2.tsv'
+val_path = '/LIAR-PLUS/dataset/val2.tsv'
 
 train_df = pd.read_csv(train_path, sep="\t", header=None)
 test_df = pd.read_csv(test_path, sep="\t", header=None)
