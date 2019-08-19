@@ -32,7 +32,7 @@ Now to run the training code for 6 class classification, execute
 $ python3 bert_siamese.py -num_labels 6
 ```
 
-## Now Let's Discuss
+## Architecture
 
 ### Highest Accuracy I was able to achieve
 
