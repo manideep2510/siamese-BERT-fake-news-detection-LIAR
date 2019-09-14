@@ -1,5 +1,10 @@
 # Triple Branch BERT Siamese Network for fake news classification on LIAR-PLUS dataset
 
+# Dependensies
+
+- [Pytorch](http://pytorch.org)
+- [pytorch_pretrained_bert](http://huggingface.co)
+
 ## Files
 
 1. [`bert_siamese.py`](bert_siamese.py) - Code to train the binary/six-way classifier
