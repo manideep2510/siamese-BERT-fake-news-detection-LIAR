@@ -29,9 +29,9 @@ from matplotlib import pyplot as plt
 
 #home = str(Path.home())
 
-train_path = '/fake_news/LIAR-PLUS/dataset/train2.tsv'
-test_path = '/fake_news/LIAR-PLUS/dataset/test2.tsv'
-val_path = '/fake_news/LIAR-PLUS/dataset/val2.tsv'
+train_path = './LIAR-PLUS/dataset/train2.tsv'
+test_path = './LIAR-PLUS/dataset/test2.tsv'
+val_path = './LIAR-PLUS/dataset/val2.tsv'
 
 
 train_df = pd.read_csv(train_path, sep="\t", header=None)
@@ -458,7 +458,7 @@ batch_size = 8
 train_lists = [X_train, X_train_meta, X_train_credit, y_train]
 
 # Test Statements and Justifications
-test_lists = [X_test,, X_train_meta, X_test_credit, y_test]
+test_lists = [X_test, X_train_meta, X_test_credit, y_test]
 
 # Preparing the data (Tokenize)
 training_dataset = text_dataset(x_y_list = train_lists)

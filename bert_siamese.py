@@ -1,9 +1,10 @@
 import torch
+import faulthandler
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
-
+faulthandler.enable()
 # OPTIONAL: if you want to have more information on what's happening, activate the logger as follows
 import logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO) 
 
 # Load pre-trained model tokenizer (vocabulary)
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -37,9 +38,9 @@ num_labels = args.num_labels
 
 #home = str(Path.home())
 
-train_path = '/LIAR-PLUS/dataset/train2.tsv'
-test_path = '/LIAR-PLUS/dataset/test2.tsv'
-val_path = '/LIAR-PLUS/dataset/val2.tsv'
+train_path = './LIAR-PLUS/dataset/train2.tsv'
+test_path = './LIAR-PLUS/dataset/test2.tsv'
+val_path = './LIAR-PLUS/dataset/val2.tsv'
 
 
 train_df = pd.read_csv(train_path, sep="\t", header=None)
