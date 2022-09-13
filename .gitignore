@@ -1,5 +1,7 @@
+#folders
 LIAR-PLUS/
 doc_images/
+
 # large files
 *.pth
 *.swp
